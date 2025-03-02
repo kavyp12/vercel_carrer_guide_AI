@@ -608,6 +608,7 @@ interface Subject {
   marks: string;
   totalMarks: string;
 }
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:3000";
 
 const MarksEntry = () => {
   const navigate = useNavigate();
@@ -669,7 +670,8 @@ const MarksEntry = () => {
 
       // Change this line in the handleSubmit function:
       // Change this line in the handleSubmit function:
-      const response = await fetch('api/marks', {
+      const response = await fetch(`${API_BASE_URL}/api/marks`, {
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
