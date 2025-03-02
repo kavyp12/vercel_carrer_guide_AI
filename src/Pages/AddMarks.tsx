@@ -669,7 +669,7 @@ const MarksEntry = () => {
 
       // Change this line in the handleSubmit function:
       // Change this line in the handleSubmit function:
-      const response = await fetch('api/marks', {
+      const response = await fetch('http://localhost:3000/api/marks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
