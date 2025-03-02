@@ -55,13 +55,6 @@
       "src": "/(.*)",
       "dest": "/dist/$1"
     }
-  ],
- "env": {
-  "JWT_SECRET": "@JWT_SECRET",
-  "MONGO_URI": "@MONGO_URI",
-  "GOOGLE_API_KEY": "@GOOGLE_API_KEY",
-  "GOOGLE_DRIVE_CREDENTIALS": "@GOOGLE_DRIVE_CREDENTIALS",
-  "GOOGLE_DRIVE_FOLDER_ID": "@GOOGLE_DRIVE_FOLDER_ID"
-}
+  ]
 
 }
