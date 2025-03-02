@@ -56,11 +56,12 @@
       "dest": "/dist/$1"
     }
   ],
-  "env": {
-    "JWT_SECRET": "@jwt_secret",
-    "MONGO_URI": "@mongo_uri",
-    "GOOGLE_API_KEY": "@google_api_key",
-    "GOOGLE_DRIVE_CREDENTIALS": "@google_drive_credentials",
-    "GOOGLE_DRIVE_FOLDER_ID": "@google_drive_folder_id"
-  }
+ "env": {
+  "JWT_SECRET": "@JWT_SECRET",
+  "MONGO_URI": "@MONGO_URI",
+  "GOOGLE_API_KEY": "@GOOGLE_API_KEY",
+  "GOOGLE_DRIVE_CREDENTIALS": "@GOOGLE_DRIVE_CREDENTIALS",
+  "GOOGLE_DRIVE_FOLDER_ID": "@GOOGLE_DRIVE_FOLDER_ID"
+}
+
 }
